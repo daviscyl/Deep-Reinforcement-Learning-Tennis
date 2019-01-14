@@ -17,7 +17,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Getting Started
 
-Codes were writtent using Python3.6.2, run this to install necessary packages:
+Codes were written using Python3.6.2, run this to install necessary packages:
 
 `pip install -r requirements.txt`
 
@@ -25,7 +25,7 @@ The Unity environment only runs on Macs, for Windows users, download the Windows
 
 ### Instructions
 
-- Run all the block cells `Report.ipynb` to initiate the evironment and go through the trainings.
+- Run all the block cells `Report.ipynb` to initiate the environment and go through the trainings.
 - Run `evaluate.py` to watch a trained agent play the game with itself.
 - `best_actor.pth` and `best_critic.pth` are the weights of the best model's actor and critic networks.
 - `network.py` defines the DDPG agent's neural networks.
